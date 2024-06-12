@@ -24,3 +24,14 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.125);
   display: flex;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(26, 28, 53); 
+  border-radius: 8px;
+}
