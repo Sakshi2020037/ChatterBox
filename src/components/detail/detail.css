@@ -84,19 +84,17 @@
       }
     }
 
-    button{
-        border: none;
-        background-color: rgb(230, 74, 105, 0.553);
-        color: white;
-        cursor: pointer;
-        padding: 10px 20px;
-        border-radius: 5px;
+    button {
+      border: none;
+      background-color: rgb(230, 74, 105, 0.553);
+      color: white;
+      cursor: pointer;
+      padding: 10px 20px;
+      border-radius: 5px;
 
-        &:hover{
+      &:hover {
         background-color: rgba(230, 74, 105, 0.708);
-
-        }
+      }
     }
-
   }
 }
