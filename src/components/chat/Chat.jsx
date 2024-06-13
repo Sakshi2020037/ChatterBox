@@ -22,7 +22,70 @@ const Chat = () => {
           <img src="./info.png" alt="" />
         </div>
       </div>
-      <div className="center"></div>
+      <div className="center">
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              consectetur voluptate, accusantium praesentium quod animi
+              reprehenderit fugiat suscipit omnis quis autem velit iure repellat
+              voluptatem expedita neque quia aspernatur nesciunt.
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              consectetur voluptate, accusantium praesentium quod animi
+              reprehenderit fugiat suscipit omnis quis autem velit iure repellat
+              voluptatem expedita neque quia aspernatur nesciunt.
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              consectetur voluptate, accusantium praesentium quod animi
+              reprehenderit fugiat suscipit omnis quis autem velit iure repellat
+              voluptatem expedita neque quia aspernatur nesciunt.
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UcpJ40pFimSAqfBj4Sdu85aDRF1gpZDVRA&s"
+              alt=""
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              consectetur voluptate, accusantium praesentium quod animi
+              reprehenderit fugiat suscipit omnis quis autem velit iure repellat
+              voluptatem expedita neque quia aspernatur nesciunt.
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              consectetur voluptate, accusantium praesentium quod animi
+              reprehenderit fugiat suscipit omnis quis autem velit iure repellat
+              voluptatem expedita neque quia aspernatur nesciunt.
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+      </div>
       <div className="bottom">
         <div className="icons">
           <img src="./img.png" alt="" />
