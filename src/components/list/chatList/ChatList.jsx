@@ -20,21 +20,21 @@ const ChatList = () => {
       <div className="item">
         <img src="./avatar.png" alt="" />
         <div className="texts">
-          <span>Abc Wyz</span>
+          <span>Abc Xyz</span>
           <p>Hey</p>
         </div>
       </div>
       <div className="item">
         <img src="./avatar.png" alt="" />
         <div className="texts">
-          <span>Abc Wyz</span>
+          <span>Abc Xyz</span>
           <p>Hey</p>
         </div>
       </div>
       <div className="item">
         <img src="./avatar.png" alt="" />
         <div className="texts">
-          <span>Abc Wyz</span>
+          <span>Abc Xyz</span>
           <p>Hey</p>
         </div>
       </div>
