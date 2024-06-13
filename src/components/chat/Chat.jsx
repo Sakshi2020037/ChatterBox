@@ -7,7 +7,7 @@ const Chat = () => {
   console.log(text);
 
   const endRef = useRef(null);
-  
+
   useEffect(() => {
     endRef.current?.scrollIntoView({ behavior: "smooth" });
   }, []);
@@ -108,7 +108,7 @@ const Chat = () => {
         <div className="emoji">
           <img src="./emoji.png" alt="" />
         </div>
-        <button className="sendButton">Send</button>
+        <button classame="sendButton">Send</button>
       </div>
     </div>
   );
