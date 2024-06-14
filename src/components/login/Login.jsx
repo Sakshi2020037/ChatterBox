@@ -19,9 +19,6 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    toast.warn("Helo");
-    toast.success("Helo");
-    toast.error("Helo");
   };
 
   return (
