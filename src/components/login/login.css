@@ -56,6 +56,11 @@
         cursor: pointer;
         font-weight: 500;
         font-size: medium;
+
+        &:disabled{
+          cursor: not-allowed;
+        background-color: #1f8ff186;
+        }
       }
     }
   }

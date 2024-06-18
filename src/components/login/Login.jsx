@@ -60,7 +60,15 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    
+    try{
+      
+    }
+    catch(err){
+      console.log(err)
+      toast.error(err.message)
+    }finally{
+
+    }
   };
 
   return (
@@ -70,7 +78,7 @@ const Login = () => {
         <form onSubmit={handleLogin}>
           <input type="text" placeholder="Email" name="email" />
           <input type="password" placeholder="Password" name="password" />
-          <button>Sign In</button>
+          <button disabled={loading}>{loading? "Loading" : "Sign In"}</button>
         </form>
       </div>
       <div className="separator"></div>
@@ -90,7 +98,7 @@ const Login = () => {
           <input type="text" placeholder="Username" name="username" />
           <input type="text" placeholder="Email" name="email" />
           <input type="password" placeholder="Password" name="password" />
-          <button>Sign Up</button>
+          <button disabled={loading}>{loading? "Loading" : "Sign Up"}</button>
         </form>
       </div>
     </div>
