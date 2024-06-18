@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Chat = () => {
   const [text, setText] = useState("");
-  console.log(text);
+  // console.log(text);
 
   const endRef = useRef(null);
 

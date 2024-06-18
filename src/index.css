@@ -35,3 +35,15 @@ body {
   background: rgb(26, 28, 53); 
   border-radius: 8px;
 }
+
+.loading{
+  padding: 30px;
+  font-size: larger;
+  border-radius: 20px;
+  background-color: rgba(17, 25, 40, 0.9);
+  /* width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
