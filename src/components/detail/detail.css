@@ -91,6 +91,7 @@
       cursor: pointer;
       padding: 15px;
       border-radius: 5px;
+      font-weight: bolder;
 
       &:hover {
         background-color: rgba(230, 74, 105, 0.708);
@@ -98,7 +99,11 @@
 
       &.logout{
         padding: 10px;
-        background-color: #1a73e8;
+        background-color: #1a73e8be;
+
+        &:hover {
+          background-color: #1a73e8;
+        }
       }
     }
   }
